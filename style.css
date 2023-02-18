@@ -1,0 +1,336 @@
+#css-zen-garden {
+	background-image: url(https://miro.medium.com/focal/1200/1200/51/50/0*C__knszvhJ6NCa11);
+	background-position: center;
+	background-size: cover;
+	color: white;
+	text-shadow: 1px 1px 2px black;;
+	
+
+}
+
+
+/* This animation was taken from: https://codepen.io/qhdqhdxk/pen/XWbWLmq  */
+
+@keyframes flickering {
+	0% {
+		color: #912914;
+		text-shadow: none;
+		transform: skewX(0);
+	}
+
+	5% {
+		color: #912914;
+		text-shadow: none;
+		transform: skewX(0);
+	}
+
+	10% {
+		color: #912914;
+		text-shadow: 1px 1px #eee;
+		transform: skewX(-15deg);
+	}
+
+	15% {
+		color: #ccc;
+		text-shadow: none;
+		transform: skewX(-15deg);
+	}
+
+	20% {
+		color: #912914;
+		text-shadow: none;
+		transform: skewX(0);
+	}
+
+	25% {
+		color: #ccc;
+		text-shadow: 2px 2px #912914;
+		transform: skewX(0);
+	}
+
+	30% {
+		color: #ccc;
+		text-shadow: 2px 2px #912914;
+		transform: skewX(0);
+	}
+
+	35% {
+		color: #ccc;
+		text-shadow: 2px 2px #912914;
+		transform: skewX(0);
+	}
+
+	37% {
+		color: #ccc;
+		text-shadow: 1px 1px #eee;
+		transform: skewX(0);
+	}
+
+	40% {
+		color: #912914;
+		text-shadow: 1px 1px #eee;
+		transform: skewX(0);
+	}
+
+	45% {
+		color: #912914;
+		text-shadow: 1px 1px #eee;
+		transform: skewX(0);
+	}
+
+	50% {
+		color: #912914;
+		text-shadow: none;
+		transform: skewX(0);
+	}
+
+	55% {
+		color: #912914;
+		text-shadow: none;
+		transform: skewX(0);
+	}
+
+	60% {
+		color: #912914;
+		text-shadow: none;
+		transform: skewX(0);
+	}
+
+	65% {
+		color: #912914;
+		text-shadow: none;
+		transform: skewX(0);
+	}
+
+	68% {
+		color: #912914;
+		text-shadow: 1px 1px #eee;
+		transform: skewX(0);
+	}
+
+	70% {
+		color: #912914;
+		text-shadow: 1px 1px #eee;
+		transform: skewX(0);
+	}
+
+	75% {
+		color: #912914;
+		text-shadow: 1px 1px #eee;
+		transform: skewX(10deg);
+	}
+
+	80% {
+		color: #912914;
+		text-shadow: 1px 1px #eee;
+		transform: skewX(10deg);
+	}
+
+	85% {
+		color: #912914;
+		text-shadow: 1px 1px #eee;
+		transform: skewX(10deg);
+	}
+
+	90% {
+		color: #912914;
+		text-shadow: none;
+		transform: skewX(0);
+	}
+
+	95% {
+		color: #912914;
+		text-shadow: 1px 1px #eee;
+		transform: skewX(0);
+	}
+
+	100% {
+		color: #912914;
+		text-shadow: none;
+		transform: skewX(0);
+	}
+}
+
+
+.intro h1 {
+	text-align: center;
+	font-family: 'Creepster', cursive;
+	font-size: 6rem;
+	color: #8a0303;
+	margin: 0 auto;
+	padding: 2rem;
+	
+}
+
+.intro h1:hover {
+	animation-name: flickering;
+	animation-duration: 2s;
+	filter: brightness(2);
+}
+
+.intro header:nth-of-type(1) h1 {
+	background-image: url(https://media.istockphoto.com/id/1168982766/video/shining-jack-o-lantern-halloween-pumpkin-with-scary-face-smoke-inside-with-flame-isolated-on.jpg?s=640x640&k=20&c=6QUuZdOjGWvr-QsQczScg1ndsJy6hFlSvFmpphllszY=);
+	background-position: center;
+	
+	
+}
+
+
+:not(h3) {
+	font-family: 'Eater', cursive;
+}
+
+#zen-intro {
+	text-align: center;
+
+}
+
+.preamble {
+	text-align: center;
+
+}
+
+.preamble h3 {
+	margin-top: 3em;
+}
+
+h3,
+h2 {
+	font-family: 'Creepster', cursive;
+	color: #8a0303;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 3px 3px 3px black;
+}
+
+
+.explanation {
+	margin: 3em;
+	padding-right: 20em;
+	position: relative;
+
+}
+
+.explanation h3 {
+	text-align: center;
+
+}
+
+.explanation p:nth-of-type(2) {
+	position: relative;
+	left: 200px;
+	margin-top: 2em;
+
+}
+
+#zen-explanation {
+	margin: 4em;
+}
+
+a[title="This page's source HTML code, not to be modified."],
+a[ title="This page's sample CSS, the file you may modify."] {
+	text-decoration: none;
+	color: #8a0303;
+}
+
+a[title="This page's source HTML code, not to be modified."],
+a[ title="This page's sample CSS, the file you may modify."]:hover {
+	text-decoration: dashed;
+	filter: brightness(5);
+
+}
+
+.participation {
+	margin: 3em;
+	padding-left: 20em;
+
+
+}
+
+.participation>h3 {
+	text-align: center;
+}
+
+.participation p:nth-of-type(1) {
+	margin-left: 1em;
+
+}
+
+.participation p:nth-of-type(2) {
+	position: relative;
+	margin-left: 1em;
+
+}
+
+.participation p:nth-of-type(3) {
+	position: relative;
+	right: 300px;
+	margin-top: 3em;
+
+}
+
+.benefits {
+	text-align: center;
+}
+
+.requirements {
+	text-align: center;
+	margin: 4em;
+}
+
+.ghost-image img {
+	float: left;
+	margin-left: 3em;
+	border: 10px groove #6b3e1e;
+	margin-top: 5em;
+}
+
+.ghost-image img:hover {
+	filter: contrast(2);
+}
+
+a,
+abbr {
+	color: darkorange;
+	text-decoration: none;
+}
+
+header abbr[title="Cascading Style Sheets"] {
+	color: #8a0303;
+	text-decoration: none;
+}
+
+a,
+abbr:hover {
+	text-decoration: dashed;
+	filter: brightness(0.2);
+
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.design-name {
+	color: rgb(255, 200, 97);
+}
+
+a:hover {
+	filter: brightness(3);
+	color: #8a0303;
+}
+
+.design-selection nav li:first-of-type+li {
+	color: darkorange;
+}
+
+.design-selection nav li:first-of-type+li+li+li+li+li+li {
+	color: orange;
+}
+
+footer {
+	text-align: center;
+	color: #8a0303;
+}
